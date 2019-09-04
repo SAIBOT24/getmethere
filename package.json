@@ -1,0 +1,23 @@
+{
+	"name": "trampirate",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "parcel index.html",
+		"build": "parcel build index.html -d dist/ --public-url  ./ --experimental-scope-hoisting"
+	},
+	"dependencies": {
+		"@zxing/library": "^0.12.3",
+		"babel-preset-env": "^1.7.0",
+		"crypto-js": "^3.1.9-1",
+		"jsrsasign": "^8.0.12",
+		"mithril": "^2.0.0-rc.4",
+		"parcel-bundler": "^1.12.1"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"typescript": "^3.3.4000"
+	}
+}
