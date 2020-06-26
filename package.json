@@ -12,7 +12,7 @@
 		"@zxing/library": "^0.12.3",
 		"babel-preset-env": "^1.7.0",
 		"crypto-js": "^3.1.9-1",
-		"jsrsasign": "^8.0.12",
+		"jsrsasign": "^8.0.19",
 		"mithril": "^2.0.0-rc.4",
 		"parcel-bundler": "^1.12.1"
 	},
